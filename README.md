@@ -145,10 +145,10 @@ SELECT  *  FROM de-project-2023.fire_accident_raw_data.fire_data_sanfrancisco;
 ```
 
 ...makes the query same data...
-[Dashboard](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/clustered_table.png)
+[mage](/images/clustered_table.png)
 
-as performing it on the not clustered table.
-[Dashboard](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/normal_table.png)
+same as performing it on the not clustered table.
+[image](/images/normal_table.png)
 
  ### Step 6: Development of a visualization using lookerstudio
 
@@ -160,7 +160,6 @@ Below is the final [dashboard](https://lookerstudio.google.com/reporting/16920cb
 
 [Dashboard_pdf_link](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/Dashboard/Fire_Incident_Report.pdf)
 
-[Dashboard Image]
-(https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/Dashboard.jpg)
+[Dashboard Image](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/Dashboard.jpg)
 
 **A special thank you to [DataTalks.Club](https://datatalks.club) for providing this incredible course! Also, thank you to the amazing slack community!**
