@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+    - name: staging
+      database: de-project-2023
+      schema: fire_accident_raw_data
+      tables:
+        - name: fire_data_sanfrancisco
+
+models:
+    - name: stg_fire_accident
+      description: It will provide all the fire accident related data which happend in Sanfrancisco
+      columns:
+          - name: incidentnumber
+          - name: id 
+            description: Primary key for this table
+            tests: 
+                - unique:
+                    severity: warn
+                - not_null:
+                    severity: warn
+          - name: address 
+          - name: incidentdate 
+          - name: incidentyear
+          - name: incidentmonth
+          - name: alarmdttm
+          - name: arrivaldttm
+          - name: delay_arrival_sec
+          - name: closedttm
+          - name: city
+          - name: zipcode
+          - name: battalion
+          - name: stationarea
+          - name: numberofalarms
+          - name: actiontakenprimary
+          - name: actiontakensecondary
