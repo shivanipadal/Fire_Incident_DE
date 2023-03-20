@@ -145,10 +145,10 @@ SELECT  *  FROM de-project-2023.fire_accident_raw_data.fire_data_sanfrancisco;
 ```
 
 ...makes the query same data...
-![image](/images/clustered_table.png)
+[image](/images/clustered_table.png)
 
 same as performing it on the not clustered table.
-![image](/images/normal_table.png)
+[image](/images/normal_table.png)
 
  ### Step 6: Development of a visualization using lookerstudio
 
