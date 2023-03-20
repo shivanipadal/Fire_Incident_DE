@@ -44,7 +44,7 @@ Creation of a [Google Cloud Platform (GCP)](https://cloud.google.com/) account.
 
 ### Step 2: Setup of GCP 
 - Creation of new GCP project. Attention: The Project ID is important. 
-- [Create VM instance](#https://github.com/ABZ-Aaron/DataEngineerZoomCamp/blob/master/week_1_basics_n_setup/README.md#setting-up-a-cloud-vm-and-ssh-access) till 23rd step 
+- [Create VM instance](https://github.com/ABZ-Aaron/DataEngineerZoomCamp/blob/master/week_1_basics_n_setup/README.md#setting-up-a-cloud-vm-and-ssh-access) till 23rd step 
 - Go to `IAM & Admin > Service accounts > Create service account`, provide a service account name and grant the roles `Viewer`, `BigQuery Admin`, `Storage Admin`, `Storage Object Admin`. 
 - Download lservice account key locally, rename it to `google_credentials.json`. 
 - Store it in your home folder `$HOME/.google/credentials/`for easier access. 
