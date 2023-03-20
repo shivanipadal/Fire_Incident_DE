@@ -1,0 +1,40 @@
+###
+### A complete description of a Prefect Deployment for flow 'ingest-data-to-bucket'
+###
+name: Ingest data from web to gcs bucket
+description: The main ETL function
+version: 0a1cb237d06ec4dcd64d55cf707f8084
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+tags: []
+parameters: {}
+schedule:
+  cron: 0 0 1 * *
+  timezone: null
+  day_or: true
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: ingest-data-to-bucket
+manifest_path: null
+storage: null
+path: /home/shivani/Fire_Incodent_DE/prefect_ingest_data
+entrypoint: ingest_data_to_bucket.py:ingest_data_to_bucket
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null

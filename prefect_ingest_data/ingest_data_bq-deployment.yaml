@@ -1,0 +1,45 @@
+###
+### A complete description of a Prefect Deployment for flow 'ingest-data-bq'
+###
+name: Ingest data from gcs bucket to bigquery
+description: null
+version: 389a4cdeb380a3753afbe90110d908bc
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+tags: []
+parameters: {}
+schedule:
+  cron: 0 1 1 * *
+  timezone: null
+  day_or: true
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: ingest-data-bq
+manifest_path: null
+storage: null
+path: /home/shivani/Fire_Incodent_DE/prefect_ingest_data
+entrypoint: ingest_data_to_bq.py:ingest_data_bq
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties:
+    file:
+      title: file
+      default: fire_incidents.csv.parquet
+      position: 0
+      type: string
+  required: null
+  definitions: null
