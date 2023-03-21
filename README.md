@@ -22,7 +22,7 @@ Below is the high level overview of the steps involved:
  ## Dataset
 The chosen dataset was the fire incidents data in the US from 1-Jan-2003 to 20-Mar-2023. 
 
-It includes a summary of each (non-medical) incident to which the SF Fire Department responded. Each incident record includes, the incident number, the battalion whihc responded to the incident, the incident date, the timestamp of alarm, arrival and closure of the incident, among others. 
+It includes a summary of each (non-medical) incident to which the SF Fire Department responded. Each incident record includes, the incident number, the battalion which responded to the incident, the incident date, the timestamp of alarm, arrival and closure of the incident, among others. 
 
 It is available for [download as a csv file](https://data.sfgov.org/api/views/wr8u-xric/rows.csv?accessType=DOWNLOAD) and for [consultation](https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric) where it is also provided a [data dictionary](https://data.sfgov.org/api/views/wr8u-xric/files/54c601a2-63f1-4b27-a79d-f484c620f061?download=true&filename=FIR-0001_DataDictionary_fire-incidents.xlsx). As of 20-Mar-2023, this dataset is updated daily.
 
@@ -34,7 +34,7 @@ Below tools have been used for this project:
 - **Data Lake:** Google Cloud Storage (GCS)
 - **Data Warehouse:** BigQuery
 - **Transformations:** dbt
-- **Visualization:** Google Data Studio
+- **Visualization:** Looker Studio
 
 ## Steps for Project Reproduction
 Clone this repo to start with.
@@ -161,5 +161,7 @@ Below is the final [dashboard](https://lookerstudio.google.com/reporting/16920cb
 [Dashboard_pdf_link](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/Dashboard/Fire_Incident_Report.pdf)
 
 ![Dashboard Image](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/Dashboard.jpg)
+
+![Dashboard From Jan 2021 to Mar 2023](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/Fire Incident Jan_2021_to_Mar_2023.jpg)
 
 **A special thank you to [DataTalks.Club](https://datatalks.club) for providing this incredible course! Also, thank you to the amazing slack community!**
