@@ -162,7 +162,7 @@ Below is the final [dashboard](https://lookerstudio.google.com/reporting/16920cb
 
 ![Dashboard Image](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/Dashboard.jpg)
 
-![Dashboard_From_Jan_2021_to_Mar_2023](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/Fire Incident Jan_2021_to_Mar_2023.jpg)
+![Dashboard_From_Jan_2021_to_Mar_2023](https://github.com/shivanipadal/Fire_Incident_DE/blob/main/images/Fire_Incident_Jan_2021_to_Mar_2023.jpg)
 
 
 **A special thank you to [DataTalks.Club](https://datatalks.club) for providing this incredible course! Also, thank you to the amazing slack community!**
